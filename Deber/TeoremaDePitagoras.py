@@ -117,10 +117,15 @@ def calcularPitagoras():
         #Imprimimos los valores que se hallaron 
         
         print("La hipotenusa es: ", hip)
+        #Crear un condicion por si se llenan todos los espacios
     elif catetoa!=0 and catetob!=0 and hipotenusa!=0:
+        #Se crea un mensaje
         print("Error Datos completos")
+        #Se crea un condcion por si existe algun error
     else:
+        #Se imprime un mensaje 
         print("Error revise los datos")
+        # Se llama a la funcion 
     reiniciarse()
 
     
@@ -159,6 +164,7 @@ if __name__ == '__main__':
     print("---Calcular el Teorema de Pitagoras---")
 #Se llama la funcion Suma      
     calcularPitagoras()
+
 
 
 
